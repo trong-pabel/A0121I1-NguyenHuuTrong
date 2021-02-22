@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>taoformlausurvatkhachhang</title>
+    <style>
+        #t01 {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+<form action="/action_page.php">
+    <span style="font-family: Arial">Market Research Survey</span>
+    <h3>Please take a few moments to complete this satisfaction survey.</h3>
+    <p><b>What is your range age?</b></p>
+    <select name="age">
+        <option value="18 - 24">18 - 24</option>
+        <option value="25 - 34">25 - 34</option>
+        <option value="35 - 50">35 - 50</option>
+        <option value="50+">50+</option>
+    </select>
+    <p><b>What is your yearly income range?</b></p>
+    <select name ="income">
+        <option value="$0 - $25,000">$0 - $25,000</option>
+        <option value="$25,001 - $50,000">$25,001 - $50,000</option>
+        <option value="$50,001 - $100,000">$50,001 - $100,000</option>
+        <option value="$100,000+">$100,000</option>
+    </select>
+    <p><b>Gender Identity</b></p>
+    <label><input name="hobby" value="Male" type="radio"/>Male</label><br>
+    <label><input name="hobby" value="Female" type="radio"/>Female</label><br>
+    <label><input name="hobby" value="Nonbinary" type="radio"/>Nonbinary</label><br>
+    <label><input name="hobby" value="Other" type="radio"/>Other</label><br>
+    <input type="submitform" name="submit" value="" size="50">
+    </p>
+    <p><b>Which of the following products have your purchased in the last 2 months. Please check all that apply.</b></p>
+    <label><input name="hobby" value="Product1" type="checkbox"/>Product1</label><br>
+    <label><input name="hobby" value="Product2" type="checkbox"/>Product2</label><br>
+    <label><input name="hobby" value="Product3" type="checkbox"/>Product3</label><br>
+    <p><b>How often would you use our new product?</b></p>
+    <label><input name="hobby" value="Daily" type="radio"/>Daily</label><br>
+    <label><input name="hobby" value="Weekly" type="radio"/>Weekly</label><br>
+    <label><input name="hobby" value="Monthly" type="radio"/>Monthly</label><br>
+    <p><b>What would you pay for the new product?</b></p>
+    <table>
+        <tr>
+            <td>
+                $
+            </td>
+            <td>
+                <textarea rows="1" cols="40" name="abc"></textarea>
+            </td>
+            <td>
+                <p>.</p>
+            </td>
+            <td>
+                <textarea rows="1" cols="20" name="abc"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+            </td>
+            <td>
+                <p>
+<!--                        style=" display : flex ; position : absolute ; top : 680px" -->
+                Dollars</p>
+            </td>
+            <td>
+
+            </td>
+            <td>
+                <p>Cents</p>
+            </td>
+        </tr>
+    </table>
+    <p>
+        <b>
+            What features would you like to see in the new product.
+        </b>
+    </p>
+    <textarea rows="10" cols="100"></textarea>
+    <p>Please rate your level of agreement with the following statements.</p>
+    <table id="t01">
+        <tr style="background-color: #b2b2b2">
+            <th id="t01">
+
+            </th>
+            <th id="t01">
+            Strongly Disagree
+            </th id="t01">
+            <th id="t01">
+                Disagree
+            </th>
+            <th id="t01">
+                Agree
+            </th>
+            <th id="t01">
+                Strongly Agree
+            </th>
+        </tr>
+        <tr>
+            <th id="t01">
+                Our products are priced fairly
+            </th>
+            <td id="t01">
+                <label><input name="hobby" value="1" type="radio"/><br>1</br></label>
+            </td>
+            <td id="t01">
+                <label><input style="text-align: center" name="hobby" value="2" type="radio"/><br>2</br></label>
+            </td>
+            <td id="t01">
+                <label><input style="text-align: center" name="hobby" value="3" type="radio"/><br>3</br></label>
+            </td>
+            <td id="t01">
+                <label><input style="text-align: center" name="hobby" value="4" type="radio"/><br>4</br></label>
+            </td>
+        </tr>
+        <tr style="background-color: #b2b2b2">
+            <th id="t01">
+                Our products are high quality
+            </th>
+            <td id="t01">
+                <label><input name="hobby" value="1" type="radio"/><br>1</br></label>
+            </td>
+            <td id="t01">
+                <label><input style="text-align: center" name="hobby" value="2" type="radio"/><br>2</br></label>
+            </td>
+            <td id="t01">
+                <label><input style="text-align: center" name="hobby" value="3" type="radio"/><br>3</br></label>
+            </td>
+            <td id="t01">
+                <label><input style="text-align: center" name="hobby" value="4" type="radio"/><br>4</br></label>
+            </td>
+        </tr>
+        <tr>
+            <th id="t01">
+                You would recommend our product to a friend or coworker
+            </th>
+            <td id="t01">
+                <label><input name="hobby" value="1" type="radio"/><br>1</br></label>
+            </td>
+            <td id="t01">
+                <label><input style="text-align: center" name="hobby" value="2" type="radio"/><br>2</br></label>
+            </td>
+            <td id="t01">
+                <label><input style="text-align: center" name="hobby" value="3" type="radio"/><br>3</br></label>
+            </td>
+            <td id="t01">
+                <label><input style="text-align: center" name="hobby" value="4" type="radio"/><br>4</br></label>
+            </td>
+        </tr>
+    </table>
+    <p><input type="submit" name="submit" value="Submit"/></p>
+</form>
+</body>
+</html>
